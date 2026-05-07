@@ -39,3 +39,10 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     }
   });
 });
+
+// ===== HERO VIDEO CAROUSEL =====
+(function() {
+  const vid = document.querySelector('.hv-video');
+  if (!vid) return;
+  vid.play().catch(() => {}); // autoplay silencioso
+})();
