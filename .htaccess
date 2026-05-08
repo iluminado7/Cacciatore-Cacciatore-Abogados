@@ -17,8 +17,6 @@ DirectoryIndex index.html
 # ───────────────────────────────────────────────
 <IfModule mod_rewrite.c>
   RewriteEngine On
-
-  # Bloquear navegación directa a carpetas
   RewriteRule ^(js|css|img|locales|video)/?$ - [F,L]
 </IfModule>
 
@@ -31,75 +29,78 @@ DirectoryIndex index.html
 </FilesMatch>
 
 # ───────────────────────────────────────────────
-# 5. HEADERS DE SEGURIDAD
+# 5. HEADERS DE SEGURIDAD + CSP
 # ───────────────────────────────────────────────
 <IfModule mod_headers.c>
-  # Evita que el navegador adivine el tipo de archivo
+
   Header set X-Content-Type-Options "nosniff"
-
-  # Evita que la página se cargue en un iframe externo (clickjacking)
   Header set X-Frame-Options "SAMEORIGIN"
-
-  # Protección XSS legacy
   Header set X-XSS-Protection "1; mode=block"
-
-  # Controla qué info se manda como referrer
   Header set Referrer-Policy "strict-origin-when-cross-origin"
-
-  # Deshabilita funciones del navegador que no se usan
-  Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-
-  # Elimina la firma del servidor Apache
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
   Header unset Server
   Header unset X-Powered-By
+
+  # Content Security Policy
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com cdn.jsdelivr.net; font-src 'self' fonts.gstatic.com cdn.jsdelivr.net; img-src 'self' data: flagcdn.com www.google.com maps.googleapis.com maps.gstatic.com; frame-src www.google.com maps.google.com; connect-src 'self' wa.me; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+
 </IfModule>
 
 # ───────────────────────────────────────────────
-# 6. FORZAR HTTPS (activar cuando tengas SSL)
+# 6. FORZAR HTTPS — descomentar cuando tengas SSL
 # ───────────────────────────────────────────────
-# Descomentar estas líneas cuando el dominio tenga certificado SSL activo:
-#
 # <IfModule mod_rewrite.c>
 #   RewriteEngine On
 #   RewriteCond %{HTTPS} off
 #   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # </IfModule>
 
+
 # ───────────────────────────────────────────────
-# 7. CACHÉ DE ARCHIVOS ESTÁTICOS
+# 6. FORZAR HTTPS — descomentar cuando tenga el dominio
+# ───────────────────────────────────────────────
+#<FilesMatch "translate\.json$">
+#  SetEnvIf Referer "^http://localhost" local_referer
+#  SetEnvIf Referer "^https://tudominio\.com" valid_referer
+#  Order Deny,Allow
+#  Deny from all
+#  Allow from env=local_referer
+#  Allow from env=valid_referer
+#</FilesMatch>
+
+
+
+
+# ───────────────────────────────────────────────
+# 7. HSTS — activar SOLO después de tener HTTPS
+# ───────────────────────────────────────────────
+# <IfModule mod_headers.c>
+#   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+# </IfModule>
+
+# ───────────────────────────────────────────────
+# 8. CACHÉ DE ARCHIVOS ESTÁTICOS
 # ───────────────────────────────────────────────
 <IfModule mod_expires.c>
   ExpiresActive On
-
-  # Imágenes — 1 mes
-  ExpiresByType image/jpg  "access plus 1 month"
-  ExpiresByType image/jpeg "access plus 1 month"
-  ExpiresByType image/png  "access plus 1 month"
-  ExpiresByType image/webp "access plus 1 month"
-  ExpiresByType image/svg+xml "access plus 1 month"
-  ExpiresByType image/x-icon "access plus 1 year"
-
-  # CSS y JS — 1 semana
-  ExpiresByType text/css        "access plus 1 week"
-  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType image/jpg              "access plus 1 month"
+  ExpiresByType image/jpeg             "access plus 1 month"
+  ExpiresByType image/png              "access plus 1 month"
+  ExpiresByType image/webp             "access plus 1 month"
+  ExpiresByType image/svg+xml          "access plus 1 month"
+  ExpiresByType image/x-icon           "access plus 1 year"
+  ExpiresByType text/css               "access plus 1 week"
+  ExpiresByType text/javascript        "access plus 1 week"
   ExpiresByType application/javascript "access plus 1 week"
-
-  # Fuentes — 1 mes
-  ExpiresByType font/woff  "access plus 1 month"
-  ExpiresByType font/woff2 "access plus 1 month"
-
-  # JSON (traducciones) — 1 día
-  ExpiresByType application/json "access plus 1 day"
-
-  # Video — 1 mes
-  ExpiresByType video/mp4 "access plus 1 month"
-
-  # HTML — sin caché (siempre fresco)
-  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType font/woff              "access plus 1 month"
+  ExpiresByType font/woff2             "access plus 1 month"
+  ExpiresByType application/json       "access plus 1 day"
+  ExpiresByType video/mp4              "access plus 1 month"
+  ExpiresByType text/html              "access plus 0 seconds"
 </IfModule>
 
 # ───────────────────────────────────────────────
-# 8. COMPRESIÓN GZIP
+# 9. COMPRESIÓN GZIP
 # ───────────────────────────────────────────────
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html
@@ -111,7 +112,7 @@ DirectoryIndex index.html
 </IfModule>
 
 # ───────────────────────────────────────────────
-# 9. PÁGINAS DE ERROR PERSONALIZADAS
+# 10. PÁGINAS DE ERROR
 # ───────────────────────────────────────────────
 ErrorDocument 403 /index.html
 ErrorDocument 404 /index.html
