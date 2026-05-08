@@ -81,8 +81,8 @@
 /* ---- Título principal ---- */
 .hv-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2.8rem, 6vw, 5rem);
-  font-weight: 700;
+  font-size: clamp(2.3rem, 6vw, 5rem);
+  font-weight: 600;
   line-height: 1.05;
   color: #ffffff;
   margin-bottom: 0.6rem;
@@ -180,6 +180,6 @@
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
   .hv-arrow { display: none; }
-  .hv-title { font-size: 2.4rem; }
+  .hv-title { font-size: 2.2rem; }
   .hv-content { padding: 6rem 1.5rem 4rem; }
 }
