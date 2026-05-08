@@ -148,6 +148,7 @@
   margin: 3rem 0 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-dark);
+  text-align: center;
 }
 .team-subdivision h4 {
   font-family: var(--font-body);
@@ -168,10 +169,22 @@
 /* ---- TEAM GRID ---- */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-bottom: 2rem;
+  justify-items: center;
 }
+
+.team-grid-single {
+  display: flex;
+  justify-content: center;
+}
+.team-grid-single .team-card {
+  max-width: 280px;
+  width: 100%;
+}
+
+
 
 /* ---- TEAM CARD ---- */
 .team-card {

@@ -207,6 +207,10 @@
       "title": "FOUNDING PARTNERS | C-LEVEL",
       "sub": "Founding Partners & Senior Management"
     },
+    "sub3": {
+      "title":"BUSINESS CONSULTANTS",
+      "sub": "Sector specialists. Technical expertise applied to each industry and market."
+    },
     "sub2": {
       "title": "STRATEGIC ADVISORS | PROJECT LEADERS",
       "sub": "Strategic advisors. Operational leadership for project execution."
@@ -226,7 +230,7 @@
       "p2": "GO HARVEY® academic programs are taught by professionals with real market experience, who integrate the ecosystem from practice, research and executive training."
       },
     "cta": {
-      "servicios": "👉 Discover the services we provide",
+      "servicios": "Discover the services we provide",
       "academy": "👉 View programs and certifications",
       "portfolio": "👉 Access our corporate solutions portfolio"
     }

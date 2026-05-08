@@ -207,6 +207,10 @@
       "title": "FOUNDING PARTNERS | C-LEVEL",
       "sub": "Sócios Fundadores & Alta Direção"
     },
+    "sub3": {
+      "title":"CONSULTORES EMPRESARIAIS",
+      "sub": "Especialistas setoriais. Expertise técnico aplicado a cada indústria e mercado."
+    },
     "sub2": {
       "title": "STRATEGIC ADVISORS | PROJECT LEADERS",
       "sub": "Consultores estratégicos. Liderança operacional para execução de projetos."
@@ -225,7 +229,7 @@
       "p2": "Os programas acadêmicos da GO HARVEY® são ministrados por profissionais com experiência real no mercado, que integram o ecossistema a partir da prática, da pesquisa e da formação executiva."
       },
     "cta": {
-      "servicios": "👉 Conheça os serviços que oferecemos",
+      "servicios": "Conheça os serviços que oferecemos",
       "academy": "👉 Ver programas e certificações",
       "portfolio": "👉 Acessar nosso portfólio de soluções Empresas"
     }
