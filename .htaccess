@@ -52,7 +52,7 @@ DirectoryIndex index.html
 # <IfModule mod_rewrite.c>
 #   RewriteEngine On
 #   RewriteCond %{HTTPS} off
-#   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#   RewriteRule ^(.*)$ https://cacciatoreabogados.com.ar/$1 [L,R=301]
 # </IfModule>
 
 
@@ -61,7 +61,7 @@ DirectoryIndex index.html
 # ───────────────────────────────────────────────
 #<FilesMatch "translate\.json$">
 #  SetEnvIf Referer "^http://localhost" local_referer
-#  SetEnvIf Referer "^https://tudominio\.com" valid_referer
+#  SetEnvIf Referer "^https://cacciatoreabogados\.com\.ar" valid_referer
 #  Order Deny,Allow
 #  Deny from all
 #  Allow from env=local_referer

@@ -23,18 +23,18 @@
   },
   "hero": {
     "eyebrow": "Ecossistema Empresarial Integrado",
-    "title": "Organizamos, Profissionalizamos e Escalamos Organizações.",
-    "desc": "Cacciatore & Cacciatore é um escritório jurídico especializado em Direito Empresarial, Compliance e Expansão. Somos parceiros estratégicos do crescimento da sua empresa e dos seus negócios. Formamos um ecossistema interdisciplinar de expansão de Empresas, Consultoria estratégica, Compliance, Academy e geração de negócios B2B para escalar marcas e franquias.",
+    "title": "Organizamos, Profissionalizamos e Escalamos Empresas.",
+    "desc": "Cacciatore & Cacciatore Abogados  Abgados é um escritório jurídico especializado em Direito Empresarial, Compliance e Expansão. Somos parceiros estratégicos do crescimento da sua empresa e dos seus negócios. Formamos um ecossistema interdisciplinar de expansão de Empresas, Consultoria estratégica, Compliance, Academy e geração de negócios B2B para escalar marcas e franquicias.",
     "cta1": "Agendar Reunião",
     "cta2": "Conheça nossas soluções"
   },
   "ecosistema": {
     "label": "Quem Somos",
     "title": "Um hub estratégico. Não um provedor de serviços.",
-    "p1": "<strong>Cacciatore & Cacciatore</strong> é um ecossistema empresarial integrado que conecta empresas com profissionais especializados, investidores e tecnologia.",
+    "p1": "<strong>Cacciatore & Cacciatore Abogados </strong> é um ecossistema empresarial integrado que conecta empresas com profissionais especializados, investidores e tecnologia.",
     "p2": "Não somos um provedor de serviços isolados. Somos o hub onde a <strong>estratégia corporativa</strong>, a <strong>tecnologia</strong>, o <strong>marco legal</strong> e a <strong>execução comercial</strong> dialogam sob o mesmo método.",
     "p3": "Durante anos, as empresas tentaram resolver seus desafios de forma fragmentada: um consultor de um lado, tecnologia desconectada do outro, e decisões críticas tomadas sem informação cruzada. O resultado: perda de valor, estagnação e dependência de seus fundadores.",
-    "highlight": "Cacciatore & Cacciatore rompe essa lógica.",
+    "highlight": "Cacciatore & Cacciatore Abogados  rompe essa lógica.",
     "cta1": "Agendar Reunião",
     "cta2": "Ver o Método",
     "p1_legal": "Marco Legal Integral",
@@ -48,8 +48,8 @@
   },
   "espana_arg": {
     "label": "Expansão Internacional",
-    "title": "Hub Estratégico Espanha–Argentina",
-    "intro": "O crescimento sustentável requer mercados dinâmicos. Na Cacciatore & Cacciatore operamos como a ponte corporativa definitiva para a internacionalização de negócios e capitais.",
+    "title": "Hub Estratégico <br> <img src=\"https://flagcdn.com/w40/es.png\"> Espanha - Argentina <img src=\"https://flagcdn.com/w40/ar.png\">",
+    "intro": "O crescimento sustentável requer mercados dinâmicos. <br> Na Cacciatore & Cacciatore Advogados, operamos como a ponte para a expansão de empresas, marcas e franquias.",
     "es_ar_title": "Espanha para Argentina",
     "es_ar_text": "Facilitamos o pouso seguro e estratégico de empresas e investidores espanhóis que buscam oportunidades de alto rendimento na Argentina, fornecendo assessoria especializada, soluções legais e contábeis, compliance, estrutura societária, arquitetura de negócios e viabilidade operacional e comercial.",
     "ar_es_title": "Argentina para Espanha",
@@ -67,14 +67,14 @@
     "title": "Por que a abordagem tradicional não funciona mais.",
     "text": "Durante anos, as empresas tentaram resolver seus desafios de forma fragmentada: um consultor de um lado, tecnologia desconectada do outro, e decisões críticas de negócios tomadas sem informação cruzada. O resultado: <strong>perda de valor, estagnação e dependência de seus fundadores.</strong>",
     "sol_label": "Nossa Solução",
-    "sol_title": "Cacciatore & Cacciatore rompe essa lógica.",
+    "sol_title": "Cacciatore & Cacciatore Abogados  rompe essa lógica.",
     "sol_text": "Não somos um provedor de serviços isolados. Somos um ecossistema onde a <strong>estratégia corporativa</strong>, a <strong>tecnologia</strong>, o <strong>marco legal</strong> e a <strong>execução comercial</strong> dialogam sob o mesmo método disruptivo.",
-    "sol_text2": "Operamos como um hub estratégico que conecta empresas com profissionais especializados, empresários com investidores e outros empresários, e em todo o processo integramos tecnologia aplicada.",
+    "sol_text2": "Operamos como um hub estratégico que conecta empresas com profissionais especializados, empresários com investidores e outros empresários, e em todo o processo integramos inteligencia artificial.",
     "sol_text3": "Não oferecemos soluções fragmentadas; projetamos, implementamos e executamos estratégias integrais para que sua empresa cresça com rentabilidade, segurança jurídica, rastreabilidade e visão de longo prazo."
   },
   "metodo": {
     "label": "Como Fazemos",
-    "title": "Método C&C® — Da Estratégia à Execução",
+    "title": "Da Estratégia à Execução",
     "intro": "Nossa metodologia é auditável, escalável e 100% orientada a resultados. Assim transformamos a estrutura da sua empresa:",
     "s1_title": "Diagnóstico Integral",
     "s1_text": "Analisamos o negócio como um sistema (comercial, operacional, financeiro, tecnológico). Detectamos gargalos e os riscos que sua organização enfrenta.",
@@ -86,7 +86,7 @@
     "s4_text": "Documentamos cada processo operacional e blindamos a empresa com políticas de integridade e prevenção de riscos.",
     "s5_title": "Implementação e Acompanhamento",
     "s5_text": "Não entregamos um relatório para depois desaparecer. Executamos o plano lado a lado com sua equipe, de forma conjunta e estratégica.",
-    "manual_label": "A Chave do Crescimento",
+    "manual_label": "A Chave para a sua Expansão estratégica",
     "manual_title": "O Manual Operativo — ScaleUP",
     "manual_text": "O entregável final do nosso método é o know-how da sua empresa documentado. É a ferramenta que permite que sua empresa cresça de forma ordenada e legalmente segura, tornando seu modelo de negócio replicável e escalável, hierarquizando sua marca para que seja franqueável, permitindo ainda a concessão de licenças ou a entrada de capitais.",
     "cta": "Aplicar o Método na Minha Empresa"
@@ -104,7 +104,7 @@
     "c2_link": "Ver Método →",
     "c3_tag": "Compliance",
     "c3_title": "C&C Compliance",
-    "c3_text": "Governança corporativa. Implementação de canais de denúncia éticos, prevenção de riscos e consolidação de uma cultura de transparência institucional.",
+    "c3_text": "Desenho e implementação de Programas de Compliance. Redação de Políticas e Protocolos internos da empresa. Desenho e implementação de Canais de Denúncia eficientes e seguros. Integração de IA em todos os processos internos da Empresa.",
     "c3_link": "Consultar →",
     "c4_tag": "Formação",
     "c4_title": "C&C Academy",
@@ -125,28 +125,9 @@
     "r5": "Mitigação de riscos legais e reputacionais.",
     "r6": "Tomada de decisões baseada em painéis de controle precisos."
   },
-  "ia": {
-    "label": "Inovação",
-    "title": "Inteligência Artificial no Direito",
-    "p1": "Na Cacciatore & Cacciatore somos pioneiros na integração de ferramentas de IA nos processos de trabalho jurídico. Não apenas usamos a tecnologia: a adaptamos às necessidades reais da sua organização.",
-    "p2": "A IA não substitui o advogado: o potencializa. Reduzimos tempos operacionais, minimizamos erros e liberamos os profissionais para se concentrarem na estratégia e no cliente.",
-    "f1": "Redução de até 70% nos tempos de revisão documental",
-    "f2": "Análise contratual automatizada com detecção de riscos",
-    "f3": "Redação assistida de escritos e documentos jurídicos",
-    "f4": "Pesquisa jurisprudencial em segundos",
-    "f5": "Due diligence acelerado para operações corporativas",
-    "c1_title": "Revisão e Análise Contratual",
-    "c1_text": "Ferramentas de IA para revisar contratos em minutos, identificando automaticamente cláusulas abusivas, inconsistências e riscos legais.",
-    "c2_title": "Pesquisa Jurídica Inteligente",
-    "c2_text": "Busca semântica de jurisprudência, doutrina e normativa relevante para cada caso, com síntese automatizada de resultados.",
-    "c3_title": "Redação Assistida por IA",
-    "c3_text": "Geração e adaptação de peças judiciais, contratos e documentos legais com assistência de modelos de linguagem especializados.",
-    "c4_title": "Due Diligence Acelerado",
-    "c4_text": "Processamento massivo de documentos para operações de M&A, investimentos e auditorias legais, reduzindo prazos de semanas para dias."
-  },
   "cta_final": {
     "label": "O Próximo Passo",
-    "title": "É hora de levar sua empresa ao próximo nível estratégico.",
+    "title": "🚀 É hora de levar sua empresa ao próximo nível estratégico.",
     "text": "Desde profissionalizar sua empresa, até expandir sua marca comercialmente entre Espanha e Argentina ou canalizar investimentos com total respaldo legal: temos a equipe e a metodologia para executá-lo com precisão.",
     "cta": "Agendar Reunião com um Partner"
   },
@@ -174,13 +155,13 @@
     "btn": "Enviar"
   },
   "footer": {
-    "desc": "Experiência, Ética e Comprometimento Profissional. Soluções jurídicas integrais para empresas que querem crescer com solidez.",
+    "desc": "Experiência, Ética e Comprometimento Profissional. Soluções jurídicas integrais para empresas que querem crescer e se expandir de maneira ordenada.",
     "col1": "Serviços",
     "col2": "Escritório",
     "col3": "Legal",
     "franquiciacion": "Franquia",
     "derecho": "Direito Empresarial",
-    "consulting": "Consulting",
+    "consulting": "C&C Consulting",
     "ia_legal": "IA Jurídica",
     "compliance": "Compliance",
     "laboral": "Direito do Trabalho",
@@ -192,12 +173,12 @@
     "aviso": "Aviso Legal",
     "privacidad": "Política de Privacidade",
     "terminos": "Termos de Uso",
-    "rights": "© 2025 Cacciatore & Cacciatore Advogados. Todos os direitos reservados."
+    "rights": "© 2026 Cacciatore & Cacciatore Advogados. Todos os direitos reservados. All rights reserved. Proibida sua reprodução total ou parcial."
   },
   "team": {
     "title": "THE GO HARVEY® TEAM",
     "subtitle": "Governança executiva. Direção estratégica. Ecossistema empresarial integrado.",
-    "intro": "Cada função dentro do ecossistema empresarial da Cacciatore & Cacciatore Abogados cumpre um papel específico na geração de valor, integrando direção estratégica, execução técnica e especialização interdisciplinar em cada projeto que lideramos.",
+    "intro": "Cada função dentro do ecossistema empresarial da Cacciatore & Cacciatore Abogados   cumpre um papel específico na geração de valor, integrando direção estratégica, execução técnica e especialização interdisciplinar em cada projeto que lideramos.",
     "structureLabel": "Assim se estrutura nosso ecossistema operacional.",
     "core": {
       "title": "CORPORATE CORE | C-LEVEL",
@@ -217,7 +198,7 @@
     },
     "vermas": "VER MAIS",
     "advisors": {
-      "title": "ADVISORS NETWORK | Unit: Cacciatore & Cacciatore Abogados CONSULTING™",
+      "title": "ADVISORS NETWORK | Unit: Cacciatore & Cacciatore Abogados   CONSULTING™",
       "sub": "Rede de Consultores e Assessores profissionais independentes, especialistas em diversas disciplinas.",
       "p1": "Na GO HARVEY® reunimos profissionais com trajetória executiva em consultoria estratégica, governança corporativa, compliance, transformação organizacional, expansão e desenvolvimento empresarial. Nossas equipes lideraram processos de organização, profissionalização e crescimento em empresas de diferentes indústrias, tamanhos e setores.",
       "p2": "Não fazemos recomendações abstratas — nos envolvemos em cada projeto ou caso concreto, aplicando nosso método Corporate <strong>Drone Method™</strong> para que as ações se tornem resultados reais, mensuráveis e sustentáveis ao longo do tempo."
@@ -242,5 +223,15 @@
     "compliance": "Gestão integral de conformidade normativa. Proteja sua organização e garanta transparência em cada operação.",
     "consulting": "Assessoria estratégica para transformar desafios em oportunidades. Abordagem personalizada para cada cliente.",
     "explore": "Explorar"
-  }
+  },
+  "aviso_legal": {
+  "titulo": "Aviso Legal",
+  "p1": "Cacciatore & Cacciatore Abogados</strong> coloca à disposição dos visitantes do seu site determinados conteúdos gráficos e audiovisuais, bem como informações jurídicas de caráter geral e para fins exclusivamente informativos.",
+  "p2": "Desejamos que os conteúdos do nosso site sejam do seu agrado e interesse, mas Cacciatore & Cacciatore Abogados</strong> não garante que tais informações sejam completas ou estejam atualizadas.",
+  "p3": "Além disso, os conteúdos e informações são publicados na maioria dos casos com caráter representativo, figurativo ou generalizado, razão pela qual não podem nem devem ser aplicáveis a cada caso concreto e particular.",
+  "p4": "Em nenhum caso o material ou as informações aqui contidas devem ser considerados como assessoria jurídica por parte de Cacciatore & Cacciatore Abogados.",
+  "fecha": "Última atualização: Maio de 2026 — Buenos Aires, Argentina.",
+  "cta_text": "Entre em contato conosco para mais informações ou para qualquer dúvida ou questionamento que possa surgir.",
+  "cta_btn": "Contatar o Escritório"
+}
 }

@@ -429,7 +429,7 @@
   font-size: 1.3rem;
   font-weight: 600;
   font-style: italic;
-  color: var(--gold-dark);
+  color: var(--gold);
   margin-bottom: 2rem;
   max-width: 680px;
 }

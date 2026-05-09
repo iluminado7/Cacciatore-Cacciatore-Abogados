@@ -64,7 +64,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: #b9973a;
+  color: var(--gold-light);
   margin-bottom: 1.2rem;
   display: flex;
   align-items: center;
@@ -74,13 +74,13 @@
   content: "";
   width: 36px;
   height: 1px;
-  background: #b9973a;
+  background: var(--gold);
   flex-shrink: 0;
 }
 
 /* ---- Título principal ---- */
 .hv-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto', serif;
   font-size: clamp(1.8rem, 3.5vw, 5rem);
   font-weight: 600;
   line-height: 1.05;
@@ -122,8 +122,8 @@
   color: rgba(255, 255, 255, 0.85) !important;
 }
 .hv-btn-outline:hover {
-  border-color: #b9973a !important;
-  color: #b9973a !important;
+  border-color: #BFAE76 !important;
+  color: #BFAE76 !important;
 }
 
 /* ---- Dots de navegación ---- */
