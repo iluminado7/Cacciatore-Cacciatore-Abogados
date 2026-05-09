@@ -59,14 +59,14 @@ DirectoryIndex index.html
 # ───────────────────────────────────────────────
 # 6. FORZAR HTTPS — descomentar cuando tenga el dominio
 # ───────────────────────────────────────────────
-#<FilesMatch "translate\.json$">
-#  SetEnvIf Referer "^http://localhost" local_referer
-#  SetEnvIf Referer "^https://cacciatoreabogados\.com\.ar" valid_referer
-#  Order Deny,Allow
-#  Deny from all
-#  Allow from env=local_referer
-#  Allow from env=valid_referer
-#</FilesMatch>
+<FilesMatch "translate\.json$">
+  SetEnvIf Referer "^http://localhost" local_referer
+  SetEnvIf Referer "^https://cacciatoreabogados\.com\.ar" valid_referer
+  Order Deny,Allow
+  Deny from all
+  Allow from env=local_referer
+  Allow from env=valid_referer
+</FilesMatch>
 
 
 
@@ -111,8 +111,16 @@ DirectoryIndex index.html
   AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
+
+<LimitExcept GET POST HEAD>
+    Require all denied
+</LimitExcept>
+<FilesMatch "\.(bak|config|sql|fla|psd|ini|log|sh|inc|swp|dist)$">
+    Require all denied
+</FilesMatch>
 # ───────────────────────────────────────────────
 # 10. PÁGINAS DE ERROR
 # ───────────────────────────────────────────────
 ErrorDocument 403 /index.html
 ErrorDocument 404 /index.html
+

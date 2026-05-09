@@ -1074,3 +1074,47 @@ footer {
     font-size: 1.1rem;
   }
 }
+/* ===== HUB ESPAÑA-ARGENTINA — IMAGEN ===== */
+
+/* ===== PARA QUE LA IMAGEN OCUPE TODO EL ANCHO, DESCOMENTAR ESTE BLOQUE Y BORRAR EL BLOQUE DE ABAJO: 
+.esp-arg-img {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+}
+===== */
+.esp-arg-img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 2.5rem;
+  border-radius: 12px;
+}
+/* ===== ESP-ARG GRID CARDS ===== */
+.esp-arg-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.esp-arg-card {
+  background: var(--white);
+  border: 1px solid var(--gold);
+  border-top: 3px solid var(--gold);
+  padding: 2rem;
+}
+.esp-arg-flags {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.esp-arg-card p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .esp-arg-img { border-radius: 8px; }
+  .esp-arg-card { padding: 1.5rem; }
+}

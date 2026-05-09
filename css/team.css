@@ -223,7 +223,7 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  border: 2px solid rgba(185,151,58,0.3);
+  border: 2px solid var(--black);
   margin-bottom: 1.2rem;
   transition: border-color 0.3s;
 }

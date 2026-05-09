@@ -156,7 +156,6 @@ horacio: {
         <p><strong>Founding Partner</strong><br>
         Chief Executive Officer (CEO)<br>
         Corporate Lawyer | Compliance Specialist</p>
-
         <p>
         El Dr. Horacio Cacciatore es Co-Fundador y Director Ejecutivo de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Executive Officer, lidera la arquitectura y visión estratégica del ecosistema, integrando derecho, compliance y desarrollo de negocios para diseñar estructuras empresariales sostenibles y crear modelos de negocio, escalables y orientados a la expansión.
@@ -252,9 +251,8 @@ eduardo: {
     img: "img/team/Eduardo Rovito.png",
     content: `
         <h2>EDUARDO ROVITO</h2>
-        <p><strong>Founding Partner</strong><br>
-        Chief Business Development Officer (CBDO)<br>
-        Business Creator</p>
+        <p><strong>Business Consultant</strong><br>
+        
 
         <p>
         Su perfil como hombre de negocios, le otorga un enfoque que combina visión empresarial, arquitectura de nuevos negocios, innovación disruptiva y capacidad de ejecución para diseñar, validar y escalar modelos de negocio en múltiples industrias y sectores.
