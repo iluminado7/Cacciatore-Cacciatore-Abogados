@@ -172,9 +172,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-bottom: 2rem;
-  justify-items: center;
+  justify-items: stretch;
+  align-items: stretch;
 }
-
 .team-grid-single {
   display: flex;
   justify-content: center;
@@ -198,6 +198,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 420px;
 }
 .team-card::after {
   content: "";
@@ -228,6 +229,12 @@
 }
 .team-card:hover .team-img {
   border-color: var(--gold);
+}
+
+#modalImg.logo-empresa {
+  border-radius: 8px;
+  object-fit: contain;
+  background: var(--white);
 }
 
 .team-name {
@@ -338,13 +345,13 @@
   justify-content: center;
   padding: 2.5rem 1.5rem;
 }
-.modal-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: top;
-  border: 3px solid var(--gold);
+.modal img {
+ max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
 }
 .modal-right {
   padding: 2.5rem 2rem 2.5rem 2rem;
@@ -378,6 +385,26 @@
   font-weight: 600;
 }
 
+.modal-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid var(--black);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.modal-btn:hover {
+  background: transparent;
+  color: var(--black);
+}
 /* ---- ADVISORS BLOCK ---- */
 .team-block {
   background: var(--bg);
@@ -446,6 +473,30 @@
 .team-cta:hover { color: var(--white); }
 .team-cta:hover::before { transform: translateX(0); }
 
+
+.team-grid {
+  align-items: stretch;
+}
+
+.team-grid .team-card {
+  height: 100%;
+}
+
+/* Founding Partners — alto fijo */
+.team-grid:first-of-type .team-card {
+  min-height: 420px;
+}
+
+/* Strategic Advisors — sin botón, alto menor */
+.team-grid:last-of-type .team-card {
+  min-height: 320px;
+}
+
+/* Card de Eduardo — mismo ancho que las del grid */
+.team-grid-single .team-card {
+  min-height: 420px;
+  max-width: 280px;
+}
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1024px) {
   .team-grid {

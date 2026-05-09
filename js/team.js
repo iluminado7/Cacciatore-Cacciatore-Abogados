@@ -1,4 +1,3 @@
-
 const modal = document.getElementById("teamModal");
 const buttons = document.querySelectorAll(".open-modal");
 const closeBtn = document.querySelector(".close-modal");
@@ -18,13 +17,13 @@ const teamData = {
                                 Corporate Lawyer</p>
 
                                 <p>
-                               El Dr. Pablo N. Cacciatore es Co-Fundador y miembro de la alta dirección de GO HARVEY®. 
+                               El Dr. Pablo N. Cacciatore es Co-Fundador y miembro de la alta dirección de Cacciatore & Cacciatore Abogados. 
                                 En su carácter de Chief Legal Officer, combina visión jurídica con estrategia de negocio para mitigar riesgos y asegurar el cumplimiento normativo, procurando así la preservación de los intereses y del patrimonio de empresas. 
                                 Como empresario y abogado corporativo, lidera la estrategia procesal en litigios complejos y en la resolución de conflictos en contextos empresariales de alto impacto económico.
 
                                 </p>
 
-                                <h3>🏛️ Formación académica</h3>
+                                <h3>Formación académica</h3>
                                 <p>
                                 Abogado — Universidad Nacional de Lomas de Zamora <br>
                                 Mediador — Escuela de Posgrado del CPACF <br>
@@ -33,7 +32,7 @@ const teamData = {
 
                                 </p>
 
-                                <h3>📜 Membresías</h3>
+                                <h3>Membresías</h3>
                                 <p>
                                 Matrícula: Abogado — Colegio Público de Abogados de la Capital Federal 
                                 Matrícula: Productor Asesor de Seguros — Superintendencia de Seguros de la Nación 
@@ -41,7 +40,7 @@ const teamData = {
 
                                 </p>
 
-                                <h3>⚖️ Perfil Ejecutivo</h3>
+                                <h3>Perfil Ejecutivo</h3>
                                 <p>
                                 Con más de 20 años de ejercicio profesional, el Dr. Pablo Nicolás Cacciatore cuenta con una sólida trayectoria como letrado patrocinante y apoderado de empresas en litigios complejos.
                                 Es especialista en sucesiones y planificación sucesoria para la continuidad de empresas familiares, así como en seguros patrimoniales, daños y perjuicios.
@@ -50,12 +49,8 @@ const teamData = {
                                 Es Fundador del estudio jurídico integral Cacciatore & Asociados, a través del cual ha asesorado durante más de dos décadas a particulares y compañías de diversos sectores en múltiples áreas del Derecho —Civil, Comercial, Laboral, Penal, Familia y Sucesiones—. 
                                 Asimismo, se desempeñó como Asesor Legal del Ministerio de Seguridad Nacional de la República Argentina, participando en investigaciones interagenciales junto a fuerzas federales.
                                 </p>
-                                <h3>🎯 En GO HARVEY®</h3>
-                                <p>lidera la vertical legal, coordinando la red de legal advisors, aportando estrategia jurídica y experiencia procesal en distintos fueros, con un enfoque basado en la prevención de riesgos y la gobernanza en procesos de transformación empresarial.
-                                Participa activamente en el desarrollo del ecosistema GO HARVEY®, acompañando a empresarios, familias empresarias y directorios en procesos críticos de transformación, continuidad y expansión.
-                                </p>
 
-                                <h3>🎯 Áreas con mayor participacion estratégica</h3>
+                                <h3>Áreas con mayor participacion estratégica</h3>
                                 <p>Continuidad empresaria y sucesión</p>
                                 <p>Gobierno corporativo en empresas familiares</p>
                                 <p>Resolución alternativa de conflictos</p>
@@ -74,12 +69,8 @@ const teamData = {
                                 <p>Prospección comercial</p>
                                 <p>Franchising Management</p>
                                 <p>Estratega en expansión empresarial</p>
-                                <h3>🥇 Reconocimientos</h3>
-                                <p>
-                                GO HARVEY®, Candidato WIPO Global Awards 2026 (World Intellectual Property Organization), organismo especializado del Sistema de Naciones Unidas, creado en 1967 – Categoría: Emerging company – Ginebra, Suiza.
-                                </p>
 
-                                <h3>📲 Si tu organización enfrenta desafíos vinculados a continuidad empresaria, sucesión en empresas familiares, gestión de riesgos legales o resolución de conflictos complejos, podrás contar con el asesoramiento de nuestro equipo.</h3>
+                                <h3>Si tu organización enfrenta desafíos vinculados a continuidad empresaria, sucesión en empresas familiares, gestión de riesgos legales o resolución de conflictos complejos, podrás contar con el asesoramiento de nuestro equipo.</h3>
                                 <!-- CTA -->
                                 <a href="#contacto" class="modal-btn">Contactar al Dr. Pablo Cacciatore</a>
         `
@@ -94,25 +85,25 @@ alejandro: {
         Certified Public Accountant</p>
 
         <p>
-       El Dr. Alejandro Romeo es Co-Fundador y miembro de la alta dirección de GO HARVEY®.
+       El Dr. Alejandro Romeo es Co-Fundador y miembro de la alta dirección de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Commercial Officer, lidera la estrategia comercial del ecosistema, integrando visión financiera, desarrollo y creación de nuevos negocios y optimización de estructuras empresariales.
         Como hombre de negocios, su enfoque combina análisis económico, prevención de riesgos fiscales e inteligencia comercial para impulsar el crecimiento sostenible de empresas
 
         </p>
 
-        <h3>🏛️ Formación académica</h3>
+        <h3>Formación académica</h3>
         <p>
         Contador Público Nacional — Universidad Kennedy<br>
         Formación ejecutiva continua — Cuenta con diversos certificados y diplomas obtenidos en instituciones como la Universidad de Buenos Aires (UBA), el Consejo Profesional de Ciencias Económicas de la Ciudad Autónoma de Buenos Aires (CPCE), la Universidad Kennedy (UK), HSBC Bank Argentina, entre otras entidades de reconocido prestigio académico.<br>
         Experiencia docente en programas educativos de formación de la UBA.
         </p>
 
-        <h3>📜 Membresías y Credenciales </h3>
+        <h3>Membresías y Credenciales </h3>
         <p>
         Matrícula: Contador Público Nacional — Consejo Profesional de Ciencias Económicas de la Ciudad Autónoma de Buenos Aires
         </p>
 
-        <h3>👔 Perfil Ejecutivo</h3>
+        <h3>Perfil Ejecutivo</h3>
         <p>
         Con más de 23 años de trayectoria en el sector Banking y Finanzas, el Dr. Alejandro Romeo ha desarrollado una sólida experiencia en el asesoramiento a empresas, PYMES, emprendedores y startups, especialmente en el desarrollo y gestión de grandes cuentas.
         Es Fundador del estudio contable y fiscal Romeo & Asociados, a través del cual ha brindado asesoramiento estratégico a empresas de diversos sectores en materia contable, fiscal, impositiva, aduanera y comercial.
@@ -120,12 +111,11 @@ alejandro: {
         Cuenta con amplia experiencia en la estructuración de modelos de gestión, optimización de recursos, mejora de márgenes de rentabilidad y administración de flujo de fondos (cash flow).
         Asimismo, ha participado en el desarrollo e implementación de Políticas KYC (Know Your Customer), Due Diligence de terceros y programas de prevención de lavado de activos (AML), en el marco de la Ley 25.246, normativa de la UIF y estándares internacionales del GAFI, incorporando una visión integral de Compliance en la gestión empresarial.
         </p>
-        <h3>🎯 En GO HARVEY®, ejecuta la estrategia comercial, participando activamente en la generación de nuevas oportunidades de negocio, el desarrollo de alianzas estratégicas y la expansión del ecosistema.</h3>
         <p>
         A su vez, cumple un rol clave en la optimización de procesos, tiempos y recursos empresariales, contribuyendo a la reducción de costos operativos y al incremento de márgenes de rentabilidad, con foco en el desarrollo, crecimiento ordenado y expansión de empresas.
         </p>
 
-        <h3>🎯 Áreas con mayor participación estratégica:</h3>
+        <h3>Áreas con mayor participación estratégica:</h3>
         <p>Estrategia comercial y desarrollo de nuevos negocios</p>
         <p>Negocios B2B, B2C y B2B2C</p>
         <p>E-Commerce Management</p>
@@ -151,17 +141,12 @@ alejandro: {
         <p>Apertura de mercados</p>
         <p>Estratega en expansión empresarial</p>
 
-        <h3>🥇 Reconocimientos</h3>
-        <p>
-        GO HARVEY®, Candidato WIPO Global Awards 2026 (World Intellectual Property Organization), organismo especializado del Sistema de Naciones Unidas, creado en 1967 – Categoría: Emerging company – Ginebra, Suiza.   
-        </p>
-
         <h3>
         Si tu empresa necesita optimizar recursos y crecer estratégicamente,
         contar con nuestro acompañamiento es clave.
         </h3>
 
-        <a href="#contacto" class="modal-btn">Contactar al Dr. Alejandro Romeo</a>
+        <a href="https://www.linkedin.com/in/alejandroromeo79/" class="modal-btn">Contactar al Dr. Alejandro Romeo</a>
     `
 },
 horacio: {
@@ -173,12 +158,12 @@ horacio: {
         Corporate Lawyer | Compliance Specialist</p>
 
         <p>
-        El Dr. Horacio Cacciatore es Co-Fundador y Director Ejecutivo de GO HARVEY®.
+        El Dr. Horacio Cacciatore es Co-Fundador y Director Ejecutivo de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Executive Officer, lidera la arquitectura y visión estratégica del ecosistema, integrando derecho, compliance y desarrollo de negocios para diseñar estructuras empresariales sostenibles y crear modelos de negocio, escalables y orientados a la expansión.
         Su enfoque combina arquitectura legal, pensamiento estratégico y dirección empresarial, con una fuerte orientación a la prevención de riesgos, la generación de alianzas clave y la promoción de la expansión de empresas.
         </p>
 
-        <h3>🏛️ Formación académica:  Grado y Posgrado</h3>
+        <h3>Formación académica:  Grado y Posgrado</h3>
       <p>  Abogado — Universidad del Museo Social Argentino (UMSA)<br>
         Specialization in Compliance — The George Washington University, School of Business (USA)<br>
         Programa Especializado en Compliance — ADEN University, Business School (USA)<br>
@@ -198,7 +183,7 @@ horacio: {
         Specialization in AI for business - The George Washington University (USA)<br>
         Negotiation — University of Michigan (USA)<br>
 
-        📜 <strong>Membresías y trayectoria académica</strong><br>
+         <strong>Membresías y trayectoria académica</strong><br>
         Matrícula: Abogado — Colegio Público de Abogados de la Capital Federal<br>
         Matrícula: Agente de la Propiedad Industrial INPI — Instituto Nacional de la Propiedad Industrial<br>
         Profesor de Posgrado - Diplomatura en Programas de Integridad, Compliance y Transparencia (1° y 2° Cohorte, 2021 y 2022) — Universidad de Belgrano.<br>
@@ -213,7 +198,7 @@ horacio: {
         Autor de más de 15 obras académicas sobre Derecho y Compliance para el Grupo Editorial Errepar–Erreius (2017-2020).<br>
         Expositor y conferencista en congresos nacionales e internacionales.<br>  </p>
 
-        <h3>⚖️ Perfil Ejecutivo - Trayectoria Profesional</h3>
+        <h3> Perfil Ejecutivo - Trayectoria Profesional</h3>
         <p>
         Con una sólida trayectoria en derecho corporativo, compliance y consultoría empresarial, el Dr. Horacio Cacciatore ha desarrollado su carrera combinando práctica legal, diseño de estructuras empresariales y desarrollo de negocios.
         Es Fundador de Cacciatore & Cacciatore Abogados, desde donde ha asesorado a empresas en materia civil, comercial, contractual, empresarial y compliance, con un enfoque centrado en la prevención de riesgos y la expansión empresarial.
@@ -222,9 +207,7 @@ horacio: {
         Cuenta con experiencia en compañías nacionales e internacionales como HSBC Bank, MetLife Seguros, Errepar, Erreius, PTM, Garbarino y Falabella, desempeñándose en áreas vinculadas a negociación, compra y contrataciones, desarrollo de negocios y estructuras contractuales.
         </p>
 
-        <p><strong>🎯 En GO HARVEY®</strong>, como arquitecto del ecosistema, lidera la integración y la dirección de las distintas unidades de negocio —Business, IA, Academy, Compliance y Consulting—, participando activamente en decisiones estratégicas, generación de acuerdos y alianzas clave, procesos de expansión empresarial y diseño de nuevos modelos de negocio.</p>
-
-        <h3>🚀 Trayectoria emprendedora</h3>
+        <h3> Trayectoria emprendedora</h3>
         <p>
         Fundador de Infinity RockStone 1981® (e-commerce business) <br>
         Creador de Programas Académicos sobre Compliance, IA y Franquicias, desarrollados para diversas entidades académicas.<br>  
@@ -233,7 +216,7 @@ horacio: {
         Participación activa en desarrollos tecnológicos con IA
         </p>
 
-        <h3>🎯 Áreas estratégicas</h3>
+        <h3>Áreas estratégicas</h3>
         <p>
         Estrategia empresarial y expansión de negocios <br>
         Compliance y gobierno corporativo <br>
@@ -248,21 +231,19 @@ horacio: {
         Creación y desarrollo de ecosistemas empresariales
         </p>
 
-        <h3>🥇 Reconocimientos</h3>
+        <h3>Reconocimientos</h3>
         <p>
         Candidato a Best CEO Awards 2026 — Madrid, España <br>
-        GO HARVEY®, Candidato WIPO Global Awards 2026 (World Intellectual Property Organization), organismo especializado del Sistema de Naciones Unidas, creado en 1967 – Categoría: Emerging company – Ginebra, Suiza. <br>
+        Candidato WIPO Global Awards 2026 (World Intellectual Property Organization), organismo especializado del Sistema de Naciones Unidas, creado en 1967 – Categoría: Emerging company – Ginebra, Suiza. <br>
         McKinsey Forward Program 2025, McKinsey & Company – New York, USA https://www.credly.com/badges/06ca9abc-319e-4363-bc45-a2b984015626 <br>
         Nomination for "Small Business Awards 2022", Corporate Vision, Staffordshire, United Kingdom. <br>
         Calificado para la "1ª Convención Region LatAm - MetLife" Representante de MetLife Argentina para la "Región Americas" - Destino: Atenas 2017 (Grecia) – Premio expedido por Dirección de MetLife Seguros S.A. – Argentina, mayo 2017. <br>
         Seniority MetLife, obtención de Categoría "Business Seniority" (Reconocimiento a la excelencia y el desarrollo profesional durante el período 2016/2017, expedido por la Dirección Comercial de MetLife Seguros S.A., marzo 2017)
         </p>
-
         <h3>
-        Si tu empresa necesita estructurarse, integrar IA o expandirse,
-        contar con GO HARVEY® es clave.
+        Si tu empresa necesita optimizar recursos y crecer estratégicamente,
+        contar con nuestro acompañamiento es clave.
         </h3>
-
         <a href="https://wa.me/5491134007699" class="modal-btn">Contactar al Dr. Horacio Cacciatore</a>
         `
 },
@@ -276,16 +257,11 @@ eduardo: {
         Business Creator</p>
 
         <p>
-        Eduardo Rovito es Co-Fundador y miembro de la alta dirección de GO HARVEY®.
-        En su carácter de Chief Business Development Officer (CBDO), impulsa la creación y desarrollo de nuevos negocios, promoviendo así la creación de nuevos modelos empresariales, disruptivos y sostenibles, generando además oportunidades estratégicas dentro del ecosistema de GO HARVEY®.
-        </p>
-
-        <p>
         Su perfil como hombre de negocios, le otorga un enfoque que combina visión empresarial, arquitectura de nuevos negocios, innovación disruptiva y capacidad de ejecución para diseñar, validar y escalar modelos de negocio en múltiples industrias y sectores.
         </p>
 
-        <h3>👔 Perfil Ejecutivo C-Level | Trayectoria Profesional y Empresarial</h3>
-        <img src="img/Logo-cerrajeria (1).png" alt="Profesional" class="team-img">
+        <h3>Trayectoria Profesional y Empresarial</h3>
+        <img src="img/Logo-cerrajeria (1).png" alt="Profesional" class="logo-empresa">
         <p>
         Con más de 30 años de trayectoria como empresario, Eduardo Rovito es Fundador y CEO de Cerrajería Leonardo®, empresa líder en Control de Accesos y soluciones de seguridad para Consorcios, fundada en la Ciudad Autónoma de Buenos Aires en 1994, la cual cuenta con una sólida presencia en el mercado y un modelo de negocio escalable que dio origen al desarrollo de su sistema de franquicias, conformando así la primera red de franquicias de sistemas de control de accesos inteligente, cerraduras digitales y domótica para Consorcios de Propiedad Horizontal y Fideicomisos Real Estate en la República Argentina.
         Es creador del Sistema de Franquicias de Cerrajería Leonardo®, consolidando un modelo de expansión basado en eficiencia operativa, estandarización y desarrollo territorial.
@@ -297,8 +273,8 @@ eduardo: {
         Cerrajería Leonardo® representa hoy la evolución del tradicional servicio de cerrajería hacia un ecosistema inteligente de control de accesos, seguridad y gestión tecnológica para edificios.
         Con una trayectoria consolidada, partners estratégicos, alianzas tecnológicas de nivel internacional y una visión clara de futuro, la empresa continúa liderando la transformación del sector en Argentina.
 
-        <h3>🚀 Innovación y desarrollo</h3>
-            <img src="img/Logo-acceso1 (1).png" alt="Profesional" class="team-img">
+        <h3>Innovación y desarrollo</h3>
+            <img src="img/Logo-acceso1 (1).png" alt="Profesional" class="logo-empresa">
         <p>
         Asimismo, Eduardo es Co-Fundador y CEO de Acceso 1®, startup tecnológica orientada al desarrollo de soluciones y automatización para el sector de control de accesos, cerrajería electrónica, biométrica y digital.
         Dicho software también es compatible a toda empresa que brinda servicios a Consorcios de Propiedad Horizontal, Condominios, Edificios, Barrios Cerrados, Countries, Garage, Parking y Fideicomisos Real Estate, como ser: prestadore de servicios de ascensores y auto elevadores de edificios, limpieza, seguridad y fumigación, entre otro tipo de servicios.
@@ -315,15 +291,14 @@ eduardo: {
         Sin lugar a dudas, la destacada trayectoria de Eduardo como empresario argentino se caracteriza por la creación de modelos de negocio disruptivos, el desarrollo de productos escalables y la generación de acuerdos comerciales en esquemas B2B, B2C y B2B2C.
         A lo largo de su carrera, ha desafiado estructuras tradicionales mediante innovación constante, incorporación de tecnología —incluyendo inteligencia artificial— y soluciones con alto impacto operativo y comercial.
         </p> <br>
-        <p><strong>🎯 En GO HARVEY®</strong>, lidera el desarrollo de nuevos modelos de negocio, la detección de oportunidades estratégicas, la creación de estructuras escalables y la generación de alianzas, participando activamente en procesos de expansión empresarial replicable a todo tipo de segmento e industria. Eduardo es estratega a la hora de pensar en expansión empresarial.</p>
 
-        <h3>🥇 Reconocimientos</h3>
+        <h3>Reconocimientos</h3>
         <p>
        Candidato a Best CEO Awards 2026 — Madrid, España  <br>
        Creador del la 1° cadena de franquicias de cerrajerías electrónicas, digitales, biométricas y sistemas de control de accesos para edificios, consorcios, fideicomisos real estate y empresas.
         </p>
  
-        <h3🎯 Áreas de enfoque estratégico</h3>
+        <h3Áreas de enfoque estratégico</h3>
         <p>Desarrollo de nuevos negocios</p>
         <p>Creación y validación de modelos empresariales</p>
         <p>Desarrollo de Sistemas de Franquicias</p>
@@ -346,28 +321,9 @@ eduardo: {
         <p>Estratega en expansión empresarial</p>
         <p>Escalabilidad y expansión empresarial</p>
         <p>Integración de tecnología en modelos tradicionales</p>
-        <h3>📲 Si tu empresa busca desarrollar nuevos modelos de negocio, escalar sus operaciones o identificar oportunidades estratégicas de crecimiento, podés coordinar una conversación con nuestro equipo de expansión.</h3>
-        <a href="https://wa.me/5491161736925" class="modal-btn">Contactar a Eduardo Rovito</a>
-    `},
-fabian: {
-    img: "img/team/Fabian Romero.png",
-    content: `
-        <h2>Fabian Romero</h2>
-        <p><strong>Lic. Seguridad e Higiene</strong><br>
 
-        <h3🎯 Áreas de enfoque estratégico</h3>
-        <p>Gestión de Seguridad y Salud Ocupacional</p>
-<p>Prevención de Riesgos Laborales</p>
-<p>Higiene Industrial</p>
-<p>Auditorías y Evaluación de Riesgos</p>
-<p>Normativas y Cumplimiento Legal (Ley 19.587, ISO 45001)</p>
-<p>Investigación de Accidentes y Mejora Continua</p>
-<p>Capacitación y Concientización del Personal</p>
-<p>Planes de Emergencia y Evacuación</p>
-        <h3>📲 Si tu empresa busca desarrollar nuevos modelos de negocio, escalar sus operaciones o identificar oportunidades estratégicas de crecimiento, podés coordinar una conversación con nuestro equipo de expansión.</h3>
-        <a href="#contacto" class="modal-btn">Contactar a Fabian Romero</a>
-    `
-}
+        <a href="https://wa.me/5491161736925" class="modal-btn">Contactar a Eduardo Rovito</a>
+    `}
 };
 
 // ABRIR MODAL
