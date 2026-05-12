@@ -734,7 +734,7 @@ footer {
 /* ===================== FLOATING ===================== */
 .floating { position: fixed; right: 1.5rem; bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem; z-index: 500; }
 .float-btn {
-  width: 44px; height: 44px;
+  width: 64px; height: 58px;
   border-radius: 50%;
   border: 1px solid var(--border-dark);
   background: rgba(255,255,255,0.95);
@@ -748,8 +748,9 @@ footer {
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
 }
 .float-btn:hover { background: var(--black); color: var(--white); border-color: var(--black); }
-.float-wa { background: rgba(37,211,102,0.1); border-color: rgba(37,211,102,0.3); color: #25d366; }
-.float-wa:hover { background: #25d366; color: white; border-color: #25d366; }
+.float-wa { background: #25D366; border-color: rgba(60, 187, 107, 0.3); color: #ffffff; }
+.float-wa:hover { background: #1EBE5D; color: #FFFFFF; border-color: #25d366; }
+
 .scroll-top { display: none; }
 .scroll-top.show { display: flex; }
 

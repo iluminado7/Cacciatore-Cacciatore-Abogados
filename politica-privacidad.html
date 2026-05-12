@@ -110,13 +110,27 @@
   <div class="container">
     <div class="footer-bottom">
       <div class="footer-legal">
+        <a href="#" onclick="document.getElementById('modalAvisoLegal').style.display='flex'; return false;">Aviso Legal</a>
         <a href="politica-privacidad.html">Política de Privacidad</a>
         <a href="terminos-condiciones.html">Términos y Condiciones</a>
       </div>
-      <p>© 2026 Cacciatore &amp; Cacciatore Abogados. Todos los derechos reservados.</p>
+      <p data-i18n="footer.rights">© 2026 Cacciatore & Cacciatore Abogados. Todos los derechos reservados. All rights reserved. Prohibida su reproducción total o parcial.</p>
     </div>
   </div>
 </footer>
+ <!-- MODAL AVISO LEGAL -->
+<div id="modalAvisoLegal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.75); z-index:3000; align-items:center; justify-content:center; padding:1.5rem;" onclick="if(event.target===this)this.style.display='none'">
+  <div style="background:#fff; max-width:700px; width:100%; max-height:85vh; overflow-y:auto; position:relative; border-top:4px solid #b9973a; padding:3rem 2.5rem; box-shadow:0 20px 60px rgba(0,0,0,0.25);">
+    <span onclick="document.getElementById('modalAvisoLegal').style.display='none'" style="position:absolute; top:1rem; right:1.5rem; font-size:1.6rem; cursor:pointer; color:#999;">&times;</span>
+    <h2 style="font-size:1.8rem; font-weight:700; color:#111; margin-bottom:1.5rem;" data-i18n="aviso_legal.titulo">Aviso Legal</h2>
+    <div style="width:60px; height:2px; background:#BFAE76; margin-bottom:2rem;"></div>
+    <p style="font-size:0.95rem; color:#5a5550; line-height:1.9; margin-bottom:1.2rem;" data-i18n="aviso_legal.p1"><strong style="color:#111;">Cacciatore & Cacciatore Abogados</strong> coloca a disposición de los visitantes de su sitio web cierto tipo de contenidos gráficos y audiovisuales, e información legal de manera generalizada y a los fines únicamente informativos.</p>
+    <p style="font-size:0.95rem; color:#5a5550; line-height:1.9; margin-bottom:1.2rem;" data-i18n="aviso_legal.p2">Deseamos que los contenidos de nuestro sitio web resulten de su agrado e interés, pero <strong style="color:#111;">Cacciatore & Cacciatore Abogados</strong> no garantiza que dicha información sea completa o se encuentre actualizada.</p>
+    <p style="font-size:0.95rem; color:#5a5550; line-height:1.9; margin-bottom:1.2rem;" data-i18n="aviso_legal.p3">A su vez, los contenidos e información son publicados en la mayoría de los casos con carácter representativo, figurativo o generalizado, razón por la cual, no puede ni debe resultar aplicable a cada caso concreto y particular.</p>
+    <p style="font-size:0.95rem; color:#5a5550; line-height:1.9; margin-bottom:2rem;" data-i18n="aviso_legal.p4">En ningún caso el material o la información aquí contenida debe considerarse como asesoramiento legal por parte de <strong style="color:#111;">Cacciatore & Cacciatore Abogados</strong>.</p>
+    <p style="font-size:0.75rem; color:#999; text-align:right; margin-top:2rem; padding-top:1rem; border-top:1px solid rgba(0,0,0,0.08);" data-i18n="aviso_legal.fecha">Última actualización: Mayo 2026 — Buenos Aires, Argentina.</p>
+  </div>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
