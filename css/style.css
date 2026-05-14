@@ -540,6 +540,7 @@ header.scrolled {
   padding: 0.3rem 1.2rem;
   white-space: nowrap;
 }
+
 .solucion-title {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
@@ -653,7 +654,7 @@ header.scrolled {
 }
 .result-item p {
   color: rgba(255,255,255,0.8);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   margin: 0;
 }
 
@@ -1147,6 +1148,9 @@ footer {
   margin-left: calc(50% - 50vw);
 }
 ===== */
+
+
+
 .esp-arg-img {
   width: 100%;
   max-width: 1200px;
@@ -1179,7 +1183,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .esp-arg-img { border-radius: 8px; }
+  .esp-arg-img { display: none; }
   .esp-arg-card { padding: 1.5rem; }
 }
 
@@ -1218,13 +1222,13 @@ footer {
 }
 .recono-text p {
   color: #FFFFFF;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1.9;
   margin-bottom: 1.5rem;
 }
 .recono-text p:last-of-type {
   color: #FFFFFF;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 .recono-items {
   display: flex;
@@ -1263,7 +1267,7 @@ footer {
 }
 .recono-item p {
   color: #ffffffdd;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
 }
