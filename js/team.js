@@ -13,23 +13,23 @@ function getCurrentLang() {
 const teamData = {
 
     pablo: {
-        img: "img/team/Dr. Pablo-Cacciatore.png",
+        img: "img/team/Dr. Pablo Cacciatore.png",
         content: `
                                <h2>DR. PABLO NICOLÁS CACCIATORE</h2>
                                 <p><strong>Founding Partner</strong><br>
                                 Chief Legal Officer (CLO)<br>
                                 Corporate Lawyer</p>
-
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
                                 <p>
                                El Dr. Pablo N. Cacciatore es Co-Fundador y miembro de la alta dirección de Cacciatore & Cacciatore Abogados. 
                                 En su carácter de Chief Legal Officer, combina visión jurídica con estrategia de negocio para mitigar riesgos y asegurar el cumplimiento normativo, procurando así la preservación de los intereses y del patrimonio de empresas. 
                                 Como empresario y abogado corporativo, lidera la estrategia procesal en litigios complejos y en la resolución de conflictos en contextos empresariales de alto impacto económico.
 
                                 </p>
-                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
-                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
-                                🔗 Compartir perfil
-                                </button>
+
                                 <h3>Formación académica</h3>
                                 <p>
                                 Abogado — Universidad Nacional de Lomas de Zamora <br>
@@ -90,16 +90,15 @@ alejandro: {
         <p><strong>Founding Partner</strong><br>
         Chief Commercial Officer (CCO)<br>
         Certified Public Accountant</p>
-
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
         <p>
        El Dr. Alejandro Romeo es Co-Fundador y miembro de la alta dirección de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Commercial Officer, lidera la estrategia comercial del ecosistema, integrando visión financiera, desarrollo y creación de nuevos negocios y optimización de estructuras empresariales.
         Como hombre de negocios, su enfoque combina análisis económico, prevención de riesgos fiscales e inteligencia comercial para impulsar el crecimiento sostenible de empresas
         </p>
-                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
-                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
-                                🔗 Compartir perfil
-                                </button>
         <h3>Formación académica</h3>
         <p>
         Contador Público Nacional — Universidad Kennedy<br>
@@ -165,15 +164,15 @@ horacio: {
         <p><strong>Founding Partner</strong><br>
         Chief Executive Officer (CEO)<br>
         Corporate Lawyer | Compliance Specialist</p>
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
         <p>
         El Dr. Horacio Cacciatore es Co-Fundador y Director Ejecutivo de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Executive Officer, lidera la arquitectura y visión estratégica del ecosistema, integrando derecho, compliance y desarrollo de negocios para diseñar estructuras empresariales sostenibles y crear modelos de negocio, escalables y orientados a la expansión.
         Su enfoque combina arquitectura legal, pensamiento estratégico y dirección empresarial, con una fuerte orientación a la prevención de riesgos, la generación de alianzas clave y la promoción de la expansión de empresas.
         </p>
-                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
-                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
-                                🔗 Compartir perfil
-                                </button>
         <h3>Formación académica:  Grado y Posgrado</h3>
       <p>  Abogado — Universidad del Museo Social Argentino (UMSA)<br>
         Specialization in Compliance — The George Washington University, School of Business (USA)<br>
