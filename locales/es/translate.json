@@ -28,6 +28,20 @@
     "cta1": "Agendar Reunión",
     "cta2": "Conocer nuestras soluciones"
   },
+  "reconocimiento": {
+  "label": "Reconocimiento Internacional",
+  "title": "Excelencia Estratégica con Proyección Global",
+  "subtitle": "Reconocimiento Internacional al Liderazgo Empresarial",
+  "text1": "Es un honor para nuestra firma comunicar que <strong style=\"color: var(--gold);\">Horacio Cacciatore</strong> forma parte de la exclusiva lista de finalistas para los <strong>Best CEO Awards 2026</strong>. La nominación destaca su labor excepcional en la expansión de empresas y su enfoque innovador en la prestación de soluciones legales y comerciales integrales.",
+  "text2": "La ceremonia, que tendrá lugar en el <strong>Mandarin Oriental Ritz de Madrid</strong>, premia a los líderes que definen el futuro de los negocios globales.",
+  "item1_title": "Especialista en Expansión",
+  "item1_text": "Liderando la internacionalización y el desarrollo de nuevos mercados.",
+  "item2_title": "Soluciones Integrales",
+  "item2_text": "Un enfoque 360° para los desafíos empresariales más complejos.",
+  "item3_title": "Distinción Europea",
+  "item3_text": "Seleccionado entre los líderes más influyentes para la edición 2026 en España.",
+  "avalado": "Reconocimiento avalado por"
+  },
   "ecosistema": {
     "label": "Quiénes Somos",
     "title": "Un hub estratégico. No un proveedor de servicios.",

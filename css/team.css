@@ -497,6 +497,26 @@
   min-height: 420px;
   max-width: 280px;
 }
+
+
+
+.share-btn {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.4rem;
+  background: transparent;
+  border: 1px solid var(--black);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.share-btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1024px) {
   .team-grid {

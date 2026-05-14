@@ -1,9 +1,13 @@
 const modal = document.getElementById("teamModal");
 const buttons = document.querySelectorAll(".open-modal");
 const closeBtn = document.querySelector(".close-modal");
-
 const modalImg = document.getElementById("modalImg");
 const modalContent = document.getElementById("modalContent");
+ 
+function getCurrentLang() {
+  const stored = localStorage.getItem('gh_lang');
+  return ['es', 'en', 'pt'].includes(stored) ? stored : 'es';
+}
 
 // CONTENIDO DE CADA PERSONA
 const teamData = {
@@ -22,7 +26,10 @@ const teamData = {
                                 Como empresario y abogado corporativo, lidera la estrategia procesal en litigios complejos y en la resolución de conflictos en contextos empresariales de alto impacto económico.
 
                                 </p>
-
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
                                 <h3>Formación académica</h3>
                                 <p>
                                 Abogado — Universidad Nacional de Lomas de Zamora <br>
@@ -88,9 +95,11 @@ alejandro: {
        El Dr. Alejandro Romeo es Co-Fundador y miembro de la alta dirección de Cacciatore & Cacciatore Abogados.
         En su carácter de Chief Commercial Officer, lidera la estrategia comercial del ecosistema, integrando visión financiera, desarrollo y creación de nuevos negocios y optimización de estructuras empresariales.
         Como hombre de negocios, su enfoque combina análisis económico, prevención de riesgos fiscales e inteligencia comercial para impulsar el crecimiento sostenible de empresas
-
         </p>
-
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
         <h3>Formación académica</h3>
         <p>
         Contador Público Nacional — Universidad Kennedy<br>
@@ -161,7 +170,10 @@ horacio: {
         En su carácter de Chief Executive Officer, lidera la arquitectura y visión estratégica del ecosistema, integrando derecho, compliance y desarrollo de negocios para diseñar estructuras empresariales sostenibles y crear modelos de negocio, escalables y orientados a la expansión.
         Su enfoque combina arquitectura legal, pensamiento estratégico y dirección empresarial, con una fuerte orientación a la prevención de riesgos, la generación de alianzas clave y la promoción de la expansión de empresas.
         </p>
-
+                                <button onclick="navigator.clipboard.writeText(window.location.href).then(() => this.textContent = '✓ Copiado!').catch(() => {}); this.textContent = '✓ Copiado!'; setTimeout(() => this.textContent = '🔗 Compartir perfil', 2000);" 
+                                style="margin-top:1.5rem; padding:0.6rem 1.4rem; background:transparent; border:1px solid var(--black); font-size:0.75rem; font-weight:600; letter-spacing:0.15em; text-transform:uppercase; cursor:pointer; transition: all 0.3s;">
+                                🔗 Compartir perfil
+                                </button>
         <h3>Formación académica:  Grado y Posgrado</h3>
       <p>  Abogado — Universidad del Museo Social Argentino (UMSA)<br>
         Specialization in Compliance — The George Washington University, School of Business (USA)<br>
@@ -324,25 +336,41 @@ eduardo: {
     `}
 };
 
-// ABRIR MODAL
+// ===== ABRIR MODAL =====
 buttons.forEach(btn => {
-    btn.addEventListener("click", function(e) {
-        e.preventDefault();
-
-        const member = this.getAttribute("data-member");
-
-        modalImg.src = teamData[member].img;
-        modalContent.innerHTML = teamData[member].content;
-
-        modal.style.display = "flex";
-    });
+  btn.addEventListener("click", function(e) {
+    e.preventDefault();
+    const member = this.getAttribute("data-member");
+    if (!teamData[member]) return;
+ 
+    modalImg.src = teamData[member].img;
+    modalContent.innerHTML = teamData[member].content;
+    modal.style.display = "flex";
+ 
+    // Actualizar URL con hash
+    history.pushState(null, '', '#' + member);
+  });
 });
-
-// CERRAR
-closeBtn.onclick = () => modal.style.display = "none";
-
-window.onclick = (e) => {
-    if (e.target === modal) {
-        modal.style.display = "none";
-    }
+ 
+// ===== CERRAR MODAL =====
+closeBtn.onclick = () => {
+  modal.style.display = "none";
+  history.pushState(null, '', window.location.pathname);
 };
+ 
+window.onclick = (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+    history.pushState(null, '', window.location.pathname);
+  }
+};
+ 
+// ===== ABRIR MODAL POR HASH EN URL =====
+document.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash.replace('#', '');
+  if (hash && teamData[hash]) {
+    modalImg.src = teamData[hash].img;
+    modalContent.innerHTML = teamData[hash].content;
+    modal.style.display = "flex";
+  }
+});
