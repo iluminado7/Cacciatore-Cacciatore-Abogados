@@ -1238,14 +1238,11 @@ footer {
 .recono-photo img {
   width: 100%;
   height: auto;
-  max-height: 520px;
-  object-fit: cover;
-  object-position: center top;
   border-radius: 12px;
   border: 1px solid rgba(185,151,58,0.3);
   display: block;
+  object-fit: contain;
 }
-
 .recono-items {
   display: flex;
   flex-direction: column;
@@ -1326,6 +1323,9 @@ footer {
 .recono-logo-box img.logo-ceo {
   filter: none;
 }
+.recono-logo-box.logo-bi-box {
+  background: #1a1a1a;
+}
 .recono-venue {
   color: rgba(255,255,255,0.4);
   font-size: 0.75rem;
@@ -1337,11 +1337,11 @@ footer {
 @media (max-width: 768px) {
   .recono-grid { grid-template-columns: 1fr; gap: 2rem; }
   .recono-logo-box { max-width: 100%; }
-  .recono-photo img { max-height: 300px; object-position: center 20%; }
+  .recono-photo img { max-width: 100%; border-radius: 8px; }
 }
 
 @media (max-width: 1024px) {
-  .recono-photo img { max-height: 400px; }
+   .recono-photo img { max-width: 500px; margin: 0 auto; }
 }
 
 @media (max-width: 480px) {
@@ -1349,7 +1349,7 @@ footer {
   .recono-header h2 { font-size: 1.4rem; }
   .recono-subtitle { font-size: 0.85rem; }
   .recono-text p { font-size: 0.88rem; }
-  .recono-photo img { max-height: 240px; object-position: center 15%; border-radius: 8px; }
+   .recono-photo img { max-width: 100%; border-radius: 6px; }
   .recono-item { padding: 0.8rem 1rem; }
   .recono-item h4 { font-size: 0.9rem; }
   .recono-item p { font-size: 0.82rem; }
