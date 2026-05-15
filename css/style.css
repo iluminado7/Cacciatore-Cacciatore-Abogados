@@ -3,7 +3,7 @@
   --gold: #BFAE76;
   --gold-light: #BFAE76;
   --gold-dark: #BFAE76;
-  --black: #000000;
+  --black: #111;
   --bg: #ffffff;
   --bg2: #ffffff;
   --bg3: #ffffff;
@@ -1323,9 +1323,7 @@ footer {
 .recono-logo-box img.logo-ceo {
   filter: none;
 }
-.recono-logo-box.logo-bi-box {
-  background: #000000;
-}
+
 .recono-venue {
   color: rgba(255,255,255,0.4);
   font-size: 0.75rem;
